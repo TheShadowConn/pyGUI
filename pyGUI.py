@@ -94,7 +94,7 @@ def display_func():
 # Intelsat Logo
 # intelsat_label = tb.Label(text='Intelsat',font=("Montserrat", 30), bootstyle='warning')
 # intelsat_label.pack(padx=50,pady=25)
-open_image = Image.open("F:/Coding Projects/Python Projects/intesat.png")
+open_image = Image.open("F:/Coding Projects/Python Projects/nice.png")
 resized_image = open_image.resize((500,130))
 img = ImageTk.PhotoImage(resized_image)
 panel = Label(root, image = img)
